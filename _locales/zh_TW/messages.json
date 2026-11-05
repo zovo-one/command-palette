@@ -1,0 +1,334 @@
+{
+  "extName": {
+    "message": "Command Palette：Ctrl+K 開啟分頁、歷史、操作",
+    "description": "Extension name, <=75 chars"
+  },
+  "extDesc": {
+    "message": "在任意網頁按 Ctrl+K 即可切換分頁、搜尋歷史和書籤，並執行快速瀏覽器操作。鍵盤優先，注重隱私。",
+    "description": "Extension description, <=132 chars"
+  },
+  "popupPlaceholder": {
+    "message": "輸入分頁、網頁或命令……"
+  },
+  "resultsLabel": {
+    "message": "結果"
+  },
+  "loading": {
+    "message": "正在載入分頁和命令……"
+  },
+  "emptyState": {
+    "message": "沒有符合項目。請試試更少的字母。"
+  },
+  "loadError": {
+    "message": "載入失敗。請按 Esc 後重試。"
+  },
+  "resultWord": {
+    "message": "個結果"
+  },
+  "resultsWord": {
+    "message": "個結果"
+  },
+  "hintOpen": {
+    "message": "按 Enter 開啟"
+  },
+  "hintNewTab": {
+    "message": "Cmd/Ctrl+Enter 於新分頁開啟"
+  },
+  "footOpen": {
+    "message": "開啟"
+  },
+  "footNewTab": {
+    "message": "新分頁"
+  },
+  "footClose": {
+    "message": "關閉"
+  },
+  "sectionTabs": {
+    "message": "開啟的分頁"
+  },
+  "sectionHistory": {
+    "message": "歷史記錄"
+  },
+  "sectionBookmarks": {
+    "message": "書籤"
+  },
+  "sectionCommands": {
+    "message": "命令"
+  },
+  "sectionCustom": {
+    "message": "你的命令"
+  },
+  "untitled": {
+    "message": "無標題"
+  },
+  "subBrowserAction": {
+    "message": "瀏覽器操作"
+  },
+  "subSearchCommand": {
+    "message": "搜尋命令"
+  },
+  "subCustomAction": {
+    "message": "自訂命令"
+  },
+  "enableHistory": {
+    "message": "啟用歷史記錄搜尋"
+  },
+  "enableBookmarks": {
+    "message": "啟用書籤搜尋"
+  },
+  "enableSubtitle": {
+    "message": "於本機讀取，絕不上傳"
+  },
+  "enablePill": {
+    "message": "啟用"
+  },
+  "cmdNewTab": {
+    "message": "新分頁"
+  },
+  "cmdCloseTab": {
+    "message": "關閉分頁"
+  },
+  "cmdReopenTab": {
+    "message": "重新開啟已關閉的分頁"
+  },
+  "cmdDuplicateTab": {
+    "message": "複製分頁"
+  },
+  "cmdPinTab": {
+    "message": "釘選 / 取消釘選分頁"
+  },
+  "cmdMuteTab": {
+    "message": "靜音 / 取消靜音分頁"
+  },
+  "cmdNewWindow": {
+    "message": "開新視窗"
+  },
+  "cmdIncognito": {
+    "message": "開新無痕視窗"
+  },
+  "cmdCopyUrl": {
+    "message": "複製網頁網址"
+  },
+  "cmdCopyTitle": {
+    "message": "複製網頁標題"
+  },
+  "cmdScrollTop": {
+    "message": "捲動到頂端"
+  },
+  "cmdScrollBottom": {
+    "message": "捲動到底部"
+  },
+  "paPrint": {
+    "message": "列印網頁"
+  },
+  "appName": {
+    "message": "Command Palette"
+  },
+  "appTagline": {
+    "message": "為你的瀏覽器提供鍵盤優先的導覽。"
+  },
+  "proBadge": {
+    "message": "Pro"
+  },
+  "upgradeCta": {
+    "message": "升級到 Pro"
+  },
+  "onboardTitle": {
+    "message": "在任意網頁按 Ctrl+K"
+  },
+  "onboardBody": {
+    "message": "一個快速、私密的命令列：切換分頁、搜尋歷史和書籤、執行快速瀏覽器操作，全部透過鍵盤完成。"
+  },
+  "onboardSourcesTitle": {
+    "message": "開啟可選的搜尋來源"
+  },
+  "onboardShortcut": {
+    "message": "Ctrl+K 在你的瀏覽器上沒有作用？"
+  },
+  "shortcutsLink": {
+    "message": "設定快速鍵"
+  },
+  "onboardStart": {
+    "message": "開始使用 Command Palette"
+  },
+  "onboardSkip": {
+    "message": "暫時跳過"
+  },
+  "sourcesTitle": {
+    "message": "搜尋來源"
+  },
+  "sourcesDesc": {
+    "message": "選擇命令面板可以搜尋的內容。一切都在你的裝置上於本機讀取，絕不外流。"
+  },
+  "sourceHistory": {
+    "message": "歷史記錄"
+  },
+  "sourceHistoryDesc": {
+    "message": "搜尋你造訪過的網頁。"
+  },
+  "sourceBookmarks": {
+    "message": "書籤"
+  },
+  "sourceBookmarksDesc": {
+    "message": "搜尋你儲存的書籤。"
+  },
+  "sourceSessions": {
+    "message": "最近關閉"
+  },
+  "sourceSessionsDesc": {
+    "message": "重新開啟最近關閉的分頁。"
+  },
+  "appearanceTitle": {
+    "message": "外觀與行為"
+  },
+  "themeLabel": {
+    "message": "主題"
+  },
+  "themeSystem": {
+    "message": "跟隨系統"
+  },
+  "themeLight": {
+    "message": "淺色"
+  },
+  "themeDark": {
+    "message": "深色"
+  },
+  "openNewTabLabel": {
+    "message": "在新分頁中開啟結果"
+  },
+  "openNewTabDesc": {
+    "message": "Enter 於新分頁開啟；Ctrl+Enter 於目前分頁開啟。"
+  },
+  "commandsTitle": {
+    "message": "自訂命令"
+  },
+  "commandsDesc": {
+    "message": "你自己的快速操作：開啟網址、搜尋任意網站或執行網頁操作。"
+  },
+  "newCommand": {
+    "message": "新增命令"
+  },
+  "commandsEmpty": {
+    "message": "還沒有自訂命令。建立你的第一個吧。"
+  },
+  "capProAll": {
+    "message": "使用 Pro 可建立無限自訂命令。"
+  },
+  "freeCommandsUsed": {
+    "message": "個免費命令已使用"
+  },
+  "perSiteScoped": {
+    "message": "依網站"
+  },
+  "editorLabelLabel": {
+    "message": "標籤"
+  },
+  "editorLabelPh": {
+    "message": "例如：搜尋 MDN"
+  },
+  "editorKindLabel": {
+    "message": "類型"
+  },
+  "optKindOpenUrl": {
+    "message": "開啟網址"
+  },
+  "kindSearchShort": {
+    "message": "搜尋網站"
+  },
+  "optKindSearch": {
+    "message": "搜尋網站（用 %s 代表你的查詢）"
+  },
+  "optKindPageAction": {
+    "message": "網頁操作"
+  },
+  "editorTargetUrlLabel": {
+    "message": "要開啟的網址"
+  },
+  "editorTargetUrlPh": {
+    "message": "https://example.com"
+  },
+  "editorTargetSearchLabel": {
+    "message": "搜尋網址（用 %s 代表你的查詢）"
+  },
+  "editorTargetSearchPh": {
+    "message": "https://developer.mozilla.org/search?q=%s"
+  },
+  "editorTargetActionLabel": {
+    "message": "網頁操作"
+  },
+  "editorPerSiteLabel": {
+    "message": "僅在這些網站"
+  },
+  "editorPerSitePh": {
+    "message": "*://*.github.com/*"
+  },
+  "editorPerSiteDesc": {
+    "message": "每行一個比對模式。"
+  },
+  "editorSave": {
+    "message": "儲存命令"
+  },
+  "editorCancel": {
+    "message": "取消"
+  },
+  "editorInvalid": {
+    "message": "請輸入標籤和有效的 https:// 目標。"
+  },
+  "editEdit": {
+    "message": "編輯"
+  },
+  "editDelete": {
+    "message": "刪除"
+  },
+  "deleteConfirm": {
+    "message": "刪除此命令？"
+  },
+  "savedToast": {
+    "message": "命令已儲存"
+  },
+  "deletedToast": {
+    "message": "命令已刪除"
+  },
+  "optPerSite": {
+    "message": "僅在這些網站（Pro）"
+  },
+  "optSync": {
+    "message": "在多裝置間同步命令（Pro）"
+  },
+  "syncLabel": {
+    "message": "在多裝置間同步命令"
+  },
+  "syncDesc": {
+    "message": "在你登入 Chrome 的所有裝置上保持命令同步。"
+  },
+  "aboutTitle": {
+    "message": "關於"
+  },
+  "versionLabel": {
+    "message": "版本"
+  },
+  "aboutPrivacy": {
+    "message": "無需帳戶。無追蹤。你的資料絕不離開你的裝置。"
+  },
+  "proThanks": {
+    "message": "你已使用 Pro。感謝你支持 Zovo。"
+  },
+  "privacyLink": {
+    "message": "隱私權政策"
+  },
+  "supportLink": {
+    "message": "聯絡支援"
+  },
+  "paywallTitle": {
+    "message": "解鎖 Command Palette Pro"
+  },
+  "paywallReframe": {
+    "message": "一次性 $$99，勝過永遠 $$9/mo"
+  },
+  "paywallGuarantee": {
+    "message": "30 天退款保證，隨時取消，零資料收集"
+  },
+  "shortcutHint": {
+    "message": "在 chrome://extensions/shortcuts 設定或變更快速鍵"
+  }
+}

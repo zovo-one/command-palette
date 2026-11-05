@@ -1,0 +1,334 @@
+{
+  "extName": {
+    "message": "Command Palette. Ctrl+K: Tabs, Verlauf, Aktionen",
+    "description": "Extension name, <=75 chars"
+  },
+  "extDesc": {
+    "message": "Drücke Ctrl+K auf jeder Seite, um Tabs zu wechseln, Verlauf und Lesezeichen zu durchsuchen und schnelle Aktionen auszuführen.",
+    "description": "Extension description, <=132 chars"
+  },
+  "popupPlaceholder": {
+    "message": "Tab, Seite oder Befehl eingeben …"
+  },
+  "resultsLabel": {
+    "message": "Ergebnisse"
+  },
+  "loading": {
+    "message": "Tabs und Befehle werden geladen …"
+  },
+  "emptyState": {
+    "message": "Keine Treffer. Versuch weniger Buchstaben."
+  },
+  "loadError": {
+    "message": "Laden fehlgeschlagen. Drücke Esc und versuch es erneut."
+  },
+  "resultWord": {
+    "message": "Ergebnis"
+  },
+  "resultsWord": {
+    "message": "Ergebnisse"
+  },
+  "hintOpen": {
+    "message": "Enter zum Öffnen"
+  },
+  "hintNewTab": {
+    "message": "Cmd/Ctrl+Enter für neuen Tab"
+  },
+  "footOpen": {
+    "message": "Öffnen"
+  },
+  "footNewTab": {
+    "message": "Neuer Tab"
+  },
+  "footClose": {
+    "message": "Schließen"
+  },
+  "sectionTabs": {
+    "message": "OFFENE TABS"
+  },
+  "sectionHistory": {
+    "message": "VERLAUF"
+  },
+  "sectionBookmarks": {
+    "message": "LESEZEICHEN"
+  },
+  "sectionCommands": {
+    "message": "BEFEHLE"
+  },
+  "sectionCustom": {
+    "message": "DEINE BEFEHLE"
+  },
+  "untitled": {
+    "message": "Ohne Titel"
+  },
+  "subBrowserAction": {
+    "message": "Browser-Aktion"
+  },
+  "subSearchCommand": {
+    "message": "Suchbefehl"
+  },
+  "subCustomAction": {
+    "message": "Eigener Befehl"
+  },
+  "enableHistory": {
+    "message": "Verlaufssuche aktivieren"
+  },
+  "enableBookmarks": {
+    "message": "Lesezeichensuche aktivieren"
+  },
+  "enableSubtitle": {
+    "message": "Lokal gelesen, nie hochgeladen"
+  },
+  "enablePill": {
+    "message": "Aktivieren"
+  },
+  "cmdNewTab": {
+    "message": "Neuer Tab"
+  },
+  "cmdCloseTab": {
+    "message": "Tab schließen"
+  },
+  "cmdReopenTab": {
+    "message": "Geschlossenen Tab wieder öffnen"
+  },
+  "cmdDuplicateTab": {
+    "message": "Tab duplizieren"
+  },
+  "cmdPinTab": {
+    "message": "Tab anheften / lösen"
+  },
+  "cmdMuteTab": {
+    "message": "Tab stumm / laut schalten"
+  },
+  "cmdNewWindow": {
+    "message": "Neues Fenster"
+  },
+  "cmdIncognito": {
+    "message": "Neues Inkognitofenster"
+  },
+  "cmdCopyUrl": {
+    "message": "Seiten-URL kopieren"
+  },
+  "cmdCopyTitle": {
+    "message": "Seitentitel kopieren"
+  },
+  "cmdScrollTop": {
+    "message": "Nach oben scrollen"
+  },
+  "cmdScrollBottom": {
+    "message": "Nach unten scrollen"
+  },
+  "paPrint": {
+    "message": "Seite drucken"
+  },
+  "appName": {
+    "message": "Command Palette"
+  },
+  "appTagline": {
+    "message": "Tastaturgesteuerte Navigation für deinen Browser."
+  },
+  "proBadge": {
+    "message": "Pro"
+  },
+  "upgradeCta": {
+    "message": "Auf Pro upgraden"
+  },
+  "onboardTitle": {
+    "message": "Drücke Ctrl+K auf jeder Seite"
+  },
+  "onboardBody": {
+    "message": "Eine schnelle, private Befehlsleiste: wechsle Tabs, durchsuche Verlauf und Lesezeichen und führe schnelle Browser-Aktionen aus – alles per Tastatur."
+  },
+  "onboardSourcesTitle": {
+    "message": "Optionale Suchquellen aktivieren"
+  },
+  "onboardShortcut": {
+    "message": "Ctrl+K funktioniert in deinem Browser nicht?"
+  },
+  "shortcutsLink": {
+    "message": "Tastenkürzel festlegen"
+  },
+  "onboardStart": {
+    "message": "Command Palette verwenden"
+  },
+  "onboardSkip": {
+    "message": "Vorerst überspringen"
+  },
+  "sourcesTitle": {
+    "message": "Suchquellen"
+  },
+  "sourcesDesc": {
+    "message": "Wähle, was die Palette durchsuchen darf. Alles wird lokal auf deinem Gerät gelesen und verlässt es nie."
+  },
+  "sourceHistory": {
+    "message": "Verlauf"
+  },
+  "sourceHistoryDesc": {
+    "message": "Durchsuche besuchte Seiten."
+  },
+  "sourceBookmarks": {
+    "message": "Lesezeichen"
+  },
+  "sourceBookmarksDesc": {
+    "message": "Durchsuche deine gespeicherten Lesezeichen."
+  },
+  "sourceSessions": {
+    "message": "Kürzlich geschlossen"
+  },
+  "sourceSessionsDesc": {
+    "message": "Kürzlich geschlossene Tabs wieder öffnen."
+  },
+  "appearanceTitle": {
+    "message": "Darstellung & Verhalten"
+  },
+  "themeLabel": {
+    "message": "Design"
+  },
+  "themeSystem": {
+    "message": "System"
+  },
+  "themeLight": {
+    "message": "Hell"
+  },
+  "themeDark": {
+    "message": "Dunkel"
+  },
+  "openNewTabLabel": {
+    "message": "Ergebnisse in neuem Tab öffnen"
+  },
+  "openNewTabDesc": {
+    "message": "Enter öffnet in einem neuen Tab; Ctrl+Enter im aktuellen Tab."
+  },
+  "commandsTitle": {
+    "message": "Eigene Befehle"
+  },
+  "commandsDesc": {
+    "message": "Deine eigenen schnellen Aktionen: eine URL öffnen, eine Website durchsuchen oder eine Seitenaktion ausführen."
+  },
+  "newCommand": {
+    "message": "Neuer Befehl"
+  },
+  "commandsEmpty": {
+    "message": "Noch keine eigenen Befehle. Erstelle deinen ersten."
+  },
+  "capProAll": {
+    "message": "Unbegrenzte eigene Befehle mit Pro."
+  },
+  "freeCommandsUsed": {
+    "message": "kostenlose Befehle verwendet"
+  },
+  "perSiteScoped": {
+    "message": "Pro Website"
+  },
+  "editorLabelLabel": {
+    "message": "Bezeichnung"
+  },
+  "editorLabelPh": {
+    "message": "z. B. MDN durchsuchen"
+  },
+  "editorKindLabel": {
+    "message": "Typ"
+  },
+  "optKindOpenUrl": {
+    "message": "Eine URL öffnen"
+  },
+  "kindSearchShort": {
+    "message": "Eine Website durchsuchen"
+  },
+  "optKindSearch": {
+    "message": "Eine Website durchsuchen (%s für deine Suchanfrage)"
+  },
+  "optKindPageAction": {
+    "message": "Seitenaktion"
+  },
+  "editorTargetUrlLabel": {
+    "message": "Zu öffnende URL"
+  },
+  "editorTargetUrlPh": {
+    "message": "https://example.com"
+  },
+  "editorTargetSearchLabel": {
+    "message": "Such-URL (%s für deine Suchanfrage)"
+  },
+  "editorTargetSearchPh": {
+    "message": "https://developer.mozilla.org/search?q=%s"
+  },
+  "editorTargetActionLabel": {
+    "message": "Seitenaktion"
+  },
+  "editorPerSiteLabel": {
+    "message": "Nur auf diesen Websites"
+  },
+  "editorPerSitePh": {
+    "message": "*://*.github.com/*"
+  },
+  "editorPerSiteDesc": {
+    "message": "Ein Übereinstimmungsmuster pro Zeile."
+  },
+  "editorSave": {
+    "message": "Befehl speichern"
+  },
+  "editorCancel": {
+    "message": "Abbrechen"
+  },
+  "editorInvalid": {
+    "message": "Gib eine Bezeichnung und ein gültiges https://-Ziel ein."
+  },
+  "editEdit": {
+    "message": "Bearbeiten"
+  },
+  "editDelete": {
+    "message": "Löschen"
+  },
+  "deleteConfirm": {
+    "message": "Diesen Befehl löschen?"
+  },
+  "savedToast": {
+    "message": "Befehl gespeichert"
+  },
+  "deletedToast": {
+    "message": "Befehl gelöscht"
+  },
+  "optPerSite": {
+    "message": "Nur auf diesen Websites (Pro)"
+  },
+  "optSync": {
+    "message": "Befehle geräteübergreifend synchronisieren (Pro)"
+  },
+  "syncLabel": {
+    "message": "Befehle geräteübergreifend synchronisieren"
+  },
+  "syncDesc": {
+    "message": "Halte deine Befehle überall synchron, wo du in Chrome angemeldet bist."
+  },
+  "aboutTitle": {
+    "message": "Info"
+  },
+  "versionLabel": {
+    "message": "Version"
+  },
+  "aboutPrivacy": {
+    "message": "Keine Konten. Kein Tracking. Deine Daten verlassen nie dein Gerät."
+  },
+  "proThanks": {
+    "message": "Du nutzt Pro. Danke, dass du Zovo unterstützt."
+  },
+  "privacyLink": {
+    "message": "Datenschutzerklärung"
+  },
+  "supportLink": {
+    "message": "Support kontaktieren"
+  },
+  "paywallTitle": {
+    "message": "Command Palette Pro freischalten"
+  },
+  "paywallReframe": {
+    "message": "$$99 einmalig statt $$9/mo für immer"
+  },
+  "paywallGuarantee": {
+    "message": "30 Tage Geld-zurück-Garantie, jederzeit kündbar, keine Datenerfassung"
+  },
+  "shortcutHint": {
+    "message": "Lege das Kürzel unter chrome://extensions/shortcuts fest"
+  }
+}

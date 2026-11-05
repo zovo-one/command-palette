@@ -1,0 +1,334 @@
+{
+  "extName": {
+    "message": "Command Palette：Ctrl+K 打开标签、历史、操作",
+    "description": "Extension name, <=75 chars"
+  },
+  "extDesc": {
+    "message": "在任意页面按 Ctrl+K 即可切换标签、搜索历史和书签，并执行快捷浏览器操作。键盘优先，注重隐私。",
+    "description": "Extension description, <=132 chars"
+  },
+  "popupPlaceholder": {
+    "message": "输入标签、页面或命令……"
+  },
+  "resultsLabel": {
+    "message": "结果"
+  },
+  "loading": {
+    "message": "正在加载标签和命令……"
+  },
+  "emptyState": {
+    "message": "没有匹配项。请尝试更少的字母。"
+  },
+  "loadError": {
+    "message": "加载失败。请按 Esc 后重试。"
+  },
+  "resultWord": {
+    "message": "个结果"
+  },
+  "resultsWord": {
+    "message": "个结果"
+  },
+  "hintOpen": {
+    "message": "按 Enter 打开"
+  },
+  "hintNewTab": {
+    "message": "Cmd/Ctrl+Enter 在新标签打开"
+  },
+  "footOpen": {
+    "message": "打开"
+  },
+  "footNewTab": {
+    "message": "新标签"
+  },
+  "footClose": {
+    "message": "关闭"
+  },
+  "sectionTabs": {
+    "message": "打开的标签"
+  },
+  "sectionHistory": {
+    "message": "历史记录"
+  },
+  "sectionBookmarks": {
+    "message": "书签"
+  },
+  "sectionCommands": {
+    "message": "命令"
+  },
+  "sectionCustom": {
+    "message": "你的命令"
+  },
+  "untitled": {
+    "message": "无标题"
+  },
+  "subBrowserAction": {
+    "message": "浏览器操作"
+  },
+  "subSearchCommand": {
+    "message": "搜索命令"
+  },
+  "subCustomAction": {
+    "message": "自定义命令"
+  },
+  "enableHistory": {
+    "message": "启用历史记录搜索"
+  },
+  "enableBookmarks": {
+    "message": "启用书签搜索"
+  },
+  "enableSubtitle": {
+    "message": "在本地读取，绝不上传"
+  },
+  "enablePill": {
+    "message": "启用"
+  },
+  "cmdNewTab": {
+    "message": "新标签"
+  },
+  "cmdCloseTab": {
+    "message": "关闭标签"
+  },
+  "cmdReopenTab": {
+    "message": "重新打开已关闭的标签"
+  },
+  "cmdDuplicateTab": {
+    "message": "复制标签"
+  },
+  "cmdPinTab": {
+    "message": "固定 / 取消固定标签"
+  },
+  "cmdMuteTab": {
+    "message": "静音 / 取消静音标签"
+  },
+  "cmdNewWindow": {
+    "message": "新建窗口"
+  },
+  "cmdIncognito": {
+    "message": "新建无痕窗口"
+  },
+  "cmdCopyUrl": {
+    "message": "复制页面网址"
+  },
+  "cmdCopyTitle": {
+    "message": "复制页面标题"
+  },
+  "cmdScrollTop": {
+    "message": "滚动到顶部"
+  },
+  "cmdScrollBottom": {
+    "message": "滚动到底部"
+  },
+  "paPrint": {
+    "message": "打印页面"
+  },
+  "appName": {
+    "message": "Command Palette"
+  },
+  "appTagline": {
+    "message": "为你的浏览器提供键盘优先的导航。"
+  },
+  "proBadge": {
+    "message": "Pro"
+  },
+  "upgradeCta": {
+    "message": "升级到 Pro"
+  },
+  "onboardTitle": {
+    "message": "在任意页面按 Ctrl+K"
+  },
+  "onboardBody": {
+    "message": "一个快速、私密的命令栏：切换标签、搜索历史和书签、执行快捷浏览器操作，全部通过键盘完成。"
+  },
+  "onboardSourcesTitle": {
+    "message": "开启可选的搜索来源"
+  },
+  "onboardShortcut": {
+    "message": "Ctrl+K 在你的浏览器上无效？"
+  },
+  "shortcutsLink": {
+    "message": "设置快捷键"
+  },
+  "onboardStart": {
+    "message": "开始使用 Command Palette"
+  },
+  "onboardSkip": {
+    "message": "暂时跳过"
+  },
+  "sourcesTitle": {
+    "message": "搜索来源"
+  },
+  "sourcesDesc": {
+    "message": "选择命令面板可以搜索的内容。一切都在你的设备上本地读取，绝不外传。"
+  },
+  "sourceHistory": {
+    "message": "历史记录"
+  },
+  "sourceHistoryDesc": {
+    "message": "搜索你访问过的页面。"
+  },
+  "sourceBookmarks": {
+    "message": "书签"
+  },
+  "sourceBookmarksDesc": {
+    "message": "搜索你保存的书签。"
+  },
+  "sourceSessions": {
+    "message": "最近关闭"
+  },
+  "sourceSessionsDesc": {
+    "message": "重新打开最近关闭的标签。"
+  },
+  "appearanceTitle": {
+    "message": "外观与行为"
+  },
+  "themeLabel": {
+    "message": "主题"
+  },
+  "themeSystem": {
+    "message": "跟随系统"
+  },
+  "themeLight": {
+    "message": "浅色"
+  },
+  "themeDark": {
+    "message": "深色"
+  },
+  "openNewTabLabel": {
+    "message": "在新标签中打开结果"
+  },
+  "openNewTabDesc": {
+    "message": "Enter 在新标签打开；Ctrl+Enter 在当前标签打开。"
+  },
+  "commandsTitle": {
+    "message": "自定义命令"
+  },
+  "commandsDesc": {
+    "message": "你自己的快捷操作：打开网址、搜索任意网站或执行页面操作。"
+  },
+  "newCommand": {
+    "message": "新建命令"
+  },
+  "commandsEmpty": {
+    "message": "还没有自定义命令。创建你的第一个吧。"
+  },
+  "capProAll": {
+    "message": "使用 Pro 可创建无限自定义命令。"
+  },
+  "freeCommandsUsed": {
+    "message": "个免费命令已用"
+  },
+  "perSiteScoped": {
+    "message": "按站点"
+  },
+  "editorLabelLabel": {
+    "message": "标签"
+  },
+  "editorLabelPh": {
+    "message": "例如：搜索 MDN"
+  },
+  "editorKindLabel": {
+    "message": "类型"
+  },
+  "optKindOpenUrl": {
+    "message": "打开网址"
+  },
+  "kindSearchShort": {
+    "message": "搜索网站"
+  },
+  "optKindSearch": {
+    "message": "搜索网站（用 %s 代表你的查询）"
+  },
+  "optKindPageAction": {
+    "message": "页面操作"
+  },
+  "editorTargetUrlLabel": {
+    "message": "要打开的网址"
+  },
+  "editorTargetUrlPh": {
+    "message": "https://example.com"
+  },
+  "editorTargetSearchLabel": {
+    "message": "搜索网址（用 %s 代表你的查询）"
+  },
+  "editorTargetSearchPh": {
+    "message": "https://developer.mozilla.org/search?q=%s"
+  },
+  "editorTargetActionLabel": {
+    "message": "页面操作"
+  },
+  "editorPerSiteLabel": {
+    "message": "仅在这些站点"
+  },
+  "editorPerSitePh": {
+    "message": "*://*.github.com/*"
+  },
+  "editorPerSiteDesc": {
+    "message": "每行一个匹配模式。"
+  },
+  "editorSave": {
+    "message": "保存命令"
+  },
+  "editorCancel": {
+    "message": "取消"
+  },
+  "editorInvalid": {
+    "message": "请输入标签和有效的 https:// 目标。"
+  },
+  "editEdit": {
+    "message": "编辑"
+  },
+  "editDelete": {
+    "message": "删除"
+  },
+  "deleteConfirm": {
+    "message": "删除此命令？"
+  },
+  "savedToast": {
+    "message": "命令已保存"
+  },
+  "deletedToast": {
+    "message": "命令已删除"
+  },
+  "optPerSite": {
+    "message": "仅在这些站点（Pro）"
+  },
+  "optSync": {
+    "message": "在多设备间同步命令（Pro）"
+  },
+  "syncLabel": {
+    "message": "在多设备间同步命令"
+  },
+  "syncDesc": {
+    "message": "在你登录 Chrome 的所有设备上保持命令同步。"
+  },
+  "aboutTitle": {
+    "message": "关于"
+  },
+  "versionLabel": {
+    "message": "版本"
+  },
+  "aboutPrivacy": {
+    "message": "无需账户。无跟踪。你的数据绝不离开你的设备。"
+  },
+  "proThanks": {
+    "message": "你已使用 Pro。感谢你支持 Zovo。"
+  },
+  "privacyLink": {
+    "message": "隐私政策"
+  },
+  "supportLink": {
+    "message": "联系支持"
+  },
+  "paywallTitle": {
+    "message": "解锁 Command Palette Pro"
+  },
+  "paywallReframe": {
+    "message": "一次性 $$99，胜过永远 $$9/mo"
+  },
+  "paywallGuarantee": {
+    "message": "30 天退款保证，随时取消，零数据收集"
+  },
+  "shortcutHint": {
+    "message": "在 chrome://extensions/shortcuts 设置或更改快捷键"
+  }
+}

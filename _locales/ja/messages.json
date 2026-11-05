@@ -1,0 +1,334 @@
+{
+  "extName": {
+    "message": "Command Palette：Ctrl+K でタブ・履歴・操作",
+    "description": "Extension name, <=75 chars"
+  },
+  "extDesc": {
+    "message": "任意のページで Ctrl+K を押すとタブ切り替え、履歴とブックマーク検索、素早いブラウザ操作ができます。キーボード中心。",
+    "description": "Extension description, <=132 chars"
+  },
+  "popupPlaceholder": {
+    "message": "タブ、ページ、コマンドを入力…"
+  },
+  "resultsLabel": {
+    "message": "結果"
+  },
+  "loading": {
+    "message": "タブとコマンドを読み込み中…"
+  },
+  "emptyState": {
+    "message": "一致なし。文字を減らしてみてください。"
+  },
+  "loadError": {
+    "message": "読み込めませんでした。Esc を押して再試行してください。"
+  },
+  "resultWord": {
+    "message": "件"
+  },
+  "resultsWord": {
+    "message": "件"
+  },
+  "hintOpen": {
+    "message": "Enter で開く"
+  },
+  "hintNewTab": {
+    "message": "Cmd/Ctrl+Enter で新しいタブ"
+  },
+  "footOpen": {
+    "message": "開く"
+  },
+  "footNewTab": {
+    "message": "新しいタブ"
+  },
+  "footClose": {
+    "message": "閉じる"
+  },
+  "sectionTabs": {
+    "message": "開いているタブ"
+  },
+  "sectionHistory": {
+    "message": "履歴"
+  },
+  "sectionBookmarks": {
+    "message": "ブックマーク"
+  },
+  "sectionCommands": {
+    "message": "コマンド"
+  },
+  "sectionCustom": {
+    "message": "あなたのコマンド"
+  },
+  "untitled": {
+    "message": "無題"
+  },
+  "subBrowserAction": {
+    "message": "ブラウザ操作"
+  },
+  "subSearchCommand": {
+    "message": "検索コマンド"
+  },
+  "subCustomAction": {
+    "message": "カスタムコマンド"
+  },
+  "enableHistory": {
+    "message": "履歴検索を有効にする"
+  },
+  "enableBookmarks": {
+    "message": "ブックマーク検索を有効にする"
+  },
+  "enableSubtitle": {
+    "message": "ローカルで読み取り、アップロードしません"
+  },
+  "enablePill": {
+    "message": "有効にする"
+  },
+  "cmdNewTab": {
+    "message": "新しいタブ"
+  },
+  "cmdCloseTab": {
+    "message": "タブを閉じる"
+  },
+  "cmdReopenTab": {
+    "message": "閉じたタブを再度開く"
+  },
+  "cmdDuplicateTab": {
+    "message": "タブを複製"
+  },
+  "cmdPinTab": {
+    "message": "タブを固定 / 固定解除"
+  },
+  "cmdMuteTab": {
+    "message": "タブをミュート / ミュート解除"
+  },
+  "cmdNewWindow": {
+    "message": "新しいウィンドウ"
+  },
+  "cmdIncognito": {
+    "message": "新しいシークレットウィンドウ"
+  },
+  "cmdCopyUrl": {
+    "message": "ページの URL をコピー"
+  },
+  "cmdCopyTitle": {
+    "message": "ページのタイトルをコピー"
+  },
+  "cmdScrollTop": {
+    "message": "一番上へスクロール"
+  },
+  "cmdScrollBottom": {
+    "message": "一番下へスクロール"
+  },
+  "paPrint": {
+    "message": "ページを印刷"
+  },
+  "appName": {
+    "message": "Command Palette"
+  },
+  "appTagline": {
+    "message": "ブラウザのためのキーボード中心のナビゲーション。"
+  },
+  "proBadge": {
+    "message": "Pro"
+  },
+  "upgradeCta": {
+    "message": "Pro にアップグレード"
+  },
+  "onboardTitle": {
+    "message": "任意のページで Ctrl+K を押す"
+  },
+  "onboardBody": {
+    "message": "高速でプライベートなコマンドバー。タブの切り替え、履歴とブックマークの検索、素早いブラウザ操作を、すべてキーボードから。"
+  },
+  "onboardSourcesTitle": {
+    "message": "任意の検索ソースをオンにする"
+  },
+  "onboardShortcut": {
+    "message": "お使いのブラウザで Ctrl+K が効きませんか？"
+  },
+  "shortcutsLink": {
+    "message": "ショートカットを設定"
+  },
+  "onboardStart": {
+    "message": "Command Palette を使い始める"
+  },
+  "onboardSkip": {
+    "message": "今はスキップ"
+  },
+  "sourcesTitle": {
+    "message": "検索ソース"
+  },
+  "sourcesDesc": {
+    "message": "パレットが検索できる対象を選びます。すべてお使いのデバイス上でローカルに読み取られ、外部に出ることはありません。"
+  },
+  "sourceHistory": {
+    "message": "履歴"
+  },
+  "sourceHistoryDesc": {
+    "message": "訪問したページを検索します。"
+  },
+  "sourceBookmarks": {
+    "message": "ブックマーク"
+  },
+  "sourceBookmarksDesc": {
+    "message": "保存したブックマークを検索します。"
+  },
+  "sourceSessions": {
+    "message": "最近閉じたタブ"
+  },
+  "sourceSessionsDesc": {
+    "message": "最近閉じたタブを再度開きます。"
+  },
+  "appearanceTitle": {
+    "message": "外観と動作"
+  },
+  "themeLabel": {
+    "message": "テーマ"
+  },
+  "themeSystem": {
+    "message": "システム"
+  },
+  "themeLight": {
+    "message": "ライト"
+  },
+  "themeDark": {
+    "message": "ダーク"
+  },
+  "openNewTabLabel": {
+    "message": "結果を新しいタブで開く"
+  },
+  "openNewTabDesc": {
+    "message": "Enter で新しいタブ、Ctrl+Enter で現在のタブに開きます。"
+  },
+  "commandsTitle": {
+    "message": "カスタムコマンド"
+  },
+  "commandsDesc": {
+    "message": "自分だけの素早い操作。URL を開く、任意のサイトを検索、ページ操作を実行できます。"
+  },
+  "newCommand": {
+    "message": "新しいコマンド"
+  },
+  "commandsEmpty": {
+    "message": "カスタムコマンドはまだありません。最初の 1 つを作成しましょう。"
+  },
+  "capProAll": {
+    "message": "Pro でカスタムコマンドが無制限に。"
+  },
+  "freeCommandsUsed": {
+    "message": "個の無料コマンドを使用中"
+  },
+  "perSiteScoped": {
+    "message": "サイトごと"
+  },
+  "editorLabelLabel": {
+    "message": "ラベル"
+  },
+  "editorLabelPh": {
+    "message": "例：MDN を検索"
+  },
+  "editorKindLabel": {
+    "message": "種類"
+  },
+  "optKindOpenUrl": {
+    "message": "URL を開く"
+  },
+  "kindSearchShort": {
+    "message": "サイトを検索"
+  },
+  "optKindSearch": {
+    "message": "サイトを検索（クエリに %s を使用）"
+  },
+  "optKindPageAction": {
+    "message": "ページ操作"
+  },
+  "editorTargetUrlLabel": {
+    "message": "開く URL"
+  },
+  "editorTargetUrlPh": {
+    "message": "https://example.com"
+  },
+  "editorTargetSearchLabel": {
+    "message": "検索 URL（クエリに %s を使用）"
+  },
+  "editorTargetSearchPh": {
+    "message": "https://developer.mozilla.org/search?q=%s"
+  },
+  "editorTargetActionLabel": {
+    "message": "ページ操作"
+  },
+  "editorPerSiteLabel": {
+    "message": "これらのサイトのみ"
+  },
+  "editorPerSitePh": {
+    "message": "*://*.github.com/*"
+  },
+  "editorPerSiteDesc": {
+    "message": "1 行に 1 つの一致パターン。"
+  },
+  "editorSave": {
+    "message": "コマンドを保存"
+  },
+  "editorCancel": {
+    "message": "キャンセル"
+  },
+  "editorInvalid": {
+    "message": "ラベルと有効な https:// のターゲットを入力してください。"
+  },
+  "editEdit": {
+    "message": "編集"
+  },
+  "editDelete": {
+    "message": "削除"
+  },
+  "deleteConfirm": {
+    "message": "このコマンドを削除しますか？"
+  },
+  "savedToast": {
+    "message": "コマンドを保存しました"
+  },
+  "deletedToast": {
+    "message": "コマンドを削除しました"
+  },
+  "optPerSite": {
+    "message": "これらのサイトのみ（Pro）"
+  },
+  "optSync": {
+    "message": "デバイス間でコマンドを同期（Pro）"
+  },
+  "syncLabel": {
+    "message": "デバイス間でコマンドを同期"
+  },
+  "syncDesc": {
+    "message": "Chrome にサインインしているすべての場所でコマンドを同期します。"
+  },
+  "aboutTitle": {
+    "message": "概要"
+  },
+  "versionLabel": {
+    "message": "バージョン"
+  },
+  "aboutPrivacy": {
+    "message": "アカウント不要。トラッキングなし。データがデバイスから出ることはありません。"
+  },
+  "proThanks": {
+    "message": "Pro をご利用中です。Zovo を応援いただきありがとうございます。"
+  },
+  "privacyLink": {
+    "message": "プライバシーポリシー"
+  },
+  "supportLink": {
+    "message": "サポートに連絡"
+  },
+  "paywallTitle": {
+    "message": "Command Palette Pro のロックを解除"
+  },
+  "paywallReframe": {
+    "message": "買い切り $$99 vs 毎月 $$9/mo をずっと"
+  },
+  "paywallGuarantee": {
+    "message": "30 日間の返金保証、いつでもキャンセル可能、データ収集ゼロ"
+  },
+  "shortcutHint": {
+    "message": "chrome://extensions/shortcuts でショートカットを設定・変更できます"
+  }
+}

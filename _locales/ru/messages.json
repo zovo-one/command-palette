@@ -1,0 +1,334 @@
+{
+  "extName": {
+    "message": "Command Palette. Ctrl+K: вкладки, история, действия",
+    "description": "Extension name, <=75 chars"
+  },
+  "extDesc": {
+    "message": "Нажмите Ctrl+K на любой странице, чтобы переключать вкладки, искать в истории и закладках и запускать быстрые действия.",
+    "description": "Extension description, <=132 chars"
+  },
+  "popupPlaceholder": {
+    "message": "Введите вкладку, страницу или команду…"
+  },
+  "resultsLabel": {
+    "message": "Результаты"
+  },
+  "loading": {
+    "message": "Загрузка ваших вкладок и команд…"
+  },
+  "emptyState": {
+    "message": "Нет совпадений. Попробуйте меньше букв."
+  },
+  "loadError": {
+    "message": "Не удалось загрузить. Нажмите Esc и повторите."
+  },
+  "resultWord": {
+    "message": "результат"
+  },
+  "resultsWord": {
+    "message": "результатов"
+  },
+  "hintOpen": {
+    "message": "Enter — открыть"
+  },
+  "hintNewTab": {
+    "message": "Cmd/Ctrl+Enter — в новой вкладке"
+  },
+  "footOpen": {
+    "message": "Открыть"
+  },
+  "footNewTab": {
+    "message": "Новая вкладка"
+  },
+  "footClose": {
+    "message": "Закрыть"
+  },
+  "sectionTabs": {
+    "message": "ОТКРЫТЫЕ ВКЛАДКИ"
+  },
+  "sectionHistory": {
+    "message": "ИСТОРИЯ"
+  },
+  "sectionBookmarks": {
+    "message": "ЗАКЛАДКИ"
+  },
+  "sectionCommands": {
+    "message": "КОМАНДЫ"
+  },
+  "sectionCustom": {
+    "message": "ВАШИ КОМАНДЫ"
+  },
+  "untitled": {
+    "message": "Без названия"
+  },
+  "subBrowserAction": {
+    "message": "Действие браузера"
+  },
+  "subSearchCommand": {
+    "message": "Команда поиска"
+  },
+  "subCustomAction": {
+    "message": "Своя команда"
+  },
+  "enableHistory": {
+    "message": "Включить поиск по истории"
+  },
+  "enableBookmarks": {
+    "message": "Включить поиск по закладкам"
+  },
+  "enableSubtitle": {
+    "message": "Читается локально, никогда не загружается"
+  },
+  "enablePill": {
+    "message": "Включить"
+  },
+  "cmdNewTab": {
+    "message": "Новая вкладка"
+  },
+  "cmdCloseTab": {
+    "message": "Закрыть вкладку"
+  },
+  "cmdReopenTab": {
+    "message": "Снова открыть закрытую вкладку"
+  },
+  "cmdDuplicateTab": {
+    "message": "Дублировать вкладку"
+  },
+  "cmdPinTab": {
+    "message": "Закрепить / открепить вкладку"
+  },
+  "cmdMuteTab": {
+    "message": "Отключить / включить звук вкладки"
+  },
+  "cmdNewWindow": {
+    "message": "Новое окно"
+  },
+  "cmdIncognito": {
+    "message": "Новое окно инкогнито"
+  },
+  "cmdCopyUrl": {
+    "message": "Копировать URL страницы"
+  },
+  "cmdCopyTitle": {
+    "message": "Копировать заголовок страницы"
+  },
+  "cmdScrollTop": {
+    "message": "Прокрутить вверх"
+  },
+  "cmdScrollBottom": {
+    "message": "Прокрутить вниз"
+  },
+  "paPrint": {
+    "message": "Печать страницы"
+  },
+  "appName": {
+    "message": "Command Palette"
+  },
+  "appTagline": {
+    "message": "Навигация с клавиатуры для вашего браузера."
+  },
+  "proBadge": {
+    "message": "Pro"
+  },
+  "upgradeCta": {
+    "message": "Перейти на Pro"
+  },
+  "onboardTitle": {
+    "message": "Нажмите Ctrl+K на любой странице"
+  },
+  "onboardBody": {
+    "message": "Быстрая приватная командная строка: переключайте вкладки, ищите в истории и закладках и запускайте быстрые действия — всё с клавиатуры."
+  },
+  "onboardSourcesTitle": {
+    "message": "Включите дополнительные источники поиска"
+  },
+  "onboardShortcut": {
+    "message": "Ctrl+K не работает в вашем браузере?"
+  },
+  "shortcutsLink": {
+    "message": "Задать сочетание клавиш"
+  },
+  "onboardStart": {
+    "message": "Начать пользоваться Command Palette"
+  },
+  "onboardSkip": {
+    "message": "Пропустить пока"
+  },
+  "sourcesTitle": {
+    "message": "Источники поиска"
+  },
+  "sourcesDesc": {
+    "message": "Выберите, что может искать палитра. Всё читается локально на вашем устройстве и никогда его не покидает."
+  },
+  "sourceHistory": {
+    "message": "История"
+  },
+  "sourceHistoryDesc": {
+    "message": "Поиск по посещённым страницам."
+  },
+  "sourceBookmarks": {
+    "message": "Закладки"
+  },
+  "sourceBookmarksDesc": {
+    "message": "Поиск по сохранённым закладкам."
+  },
+  "sourceSessions": {
+    "message": "Недавно закрытые"
+  },
+  "sourceSessionsDesc": {
+    "message": "Снова открыть недавно закрытые вкладки."
+  },
+  "appearanceTitle": {
+    "message": "Вид и поведение"
+  },
+  "themeLabel": {
+    "message": "Тема"
+  },
+  "themeSystem": {
+    "message": "Системная"
+  },
+  "themeLight": {
+    "message": "Светлая"
+  },
+  "themeDark": {
+    "message": "Тёмная"
+  },
+  "openNewTabLabel": {
+    "message": "Открывать результаты в новой вкладке"
+  },
+  "openNewTabDesc": {
+    "message": "Enter открывает в новой вкладке; Ctrl+Enter — в текущей."
+  },
+  "commandsTitle": {
+    "message": "Свои команды"
+  },
+  "commandsDesc": {
+    "message": "Ваши быстрые действия: открыть URL, искать на любом сайте или выполнить действие на странице."
+  },
+  "newCommand": {
+    "message": "Новая команда"
+  },
+  "commandsEmpty": {
+    "message": "Своих команд пока нет. Создайте первую."
+  },
+  "capProAll": {
+    "message": "Неограниченные свои команды с Pro."
+  },
+  "freeCommandsUsed": {
+    "message": "бесплатных команд использовано"
+  },
+  "perSiteScoped": {
+    "message": "По сайту"
+  },
+  "editorLabelLabel": {
+    "message": "Название"
+  },
+  "editorLabelPh": {
+    "message": "напр. Поиск в MDN"
+  },
+  "editorKindLabel": {
+    "message": "Тип"
+  },
+  "optKindOpenUrl": {
+    "message": "Открыть URL"
+  },
+  "kindSearchShort": {
+    "message": "Поиск по сайту"
+  },
+  "optKindSearch": {
+    "message": "Поиск по сайту (используйте %s для запроса)"
+  },
+  "optKindPageAction": {
+    "message": "Действие на странице"
+  },
+  "editorTargetUrlLabel": {
+    "message": "URL для открытия"
+  },
+  "editorTargetUrlPh": {
+    "message": "https://example.com"
+  },
+  "editorTargetSearchLabel": {
+    "message": "URL поиска (используйте %s для запроса)"
+  },
+  "editorTargetSearchPh": {
+    "message": "https://developer.mozilla.org/search?q=%s"
+  },
+  "editorTargetActionLabel": {
+    "message": "Действие на странице"
+  },
+  "editorPerSiteLabel": {
+    "message": "Только на этих сайтах"
+  },
+  "editorPerSitePh": {
+    "message": "*://*.github.com/*"
+  },
+  "editorPerSiteDesc": {
+    "message": "По одному шаблону совпадения в строке."
+  },
+  "editorSave": {
+    "message": "Сохранить команду"
+  },
+  "editorCancel": {
+    "message": "Отмена"
+  },
+  "editorInvalid": {
+    "message": "Введите название и корректную цель https://."
+  },
+  "editEdit": {
+    "message": "Изменить"
+  },
+  "editDelete": {
+    "message": "Удалить"
+  },
+  "deleteConfirm": {
+    "message": "Удалить эту команду?"
+  },
+  "savedToast": {
+    "message": "Команда сохранена"
+  },
+  "deletedToast": {
+    "message": "Команда удалена"
+  },
+  "optPerSite": {
+    "message": "Только на этих сайтах (Pro)"
+  },
+  "optSync": {
+    "message": "Синхронизация команд между устройствами (Pro)"
+  },
+  "syncLabel": {
+    "message": "Синхронизация команд между устройствами"
+  },
+  "syncDesc": {
+    "message": "Держите команды синхронизированными везде, где вы вошли в Chrome."
+  },
+  "aboutTitle": {
+    "message": "О расширении"
+  },
+  "versionLabel": {
+    "message": "Версия"
+  },
+  "aboutPrivacy": {
+    "message": "Без аккаунтов. Без отслеживания. Ваши данные никогда не покидают устройство."
+  },
+  "proThanks": {
+    "message": "У вас есть Pro. Спасибо за поддержку Zovo."
+  },
+  "privacyLink": {
+    "message": "Политика конфиденциальности"
+  },
+  "supportLink": {
+    "message": "Связаться с поддержкой"
+  },
+  "paywallTitle": {
+    "message": "Разблокировать Command Palette Pro"
+  },
+  "paywallReframe": {
+    "message": "$$99 один раз против $$9/mo навсегда"
+  },
+  "paywallGuarantee": {
+    "message": "Возврат денег в течение 30 дней, отмена в любое время, без сбора данных"
+  },
+  "shortcutHint": {
+    "message": "Задайте или измените сочетание в chrome://extensions/shortcuts"
+  }
+}

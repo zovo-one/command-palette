@@ -1,0 +1,334 @@
+{
+  "extName": {
+    "message": "Command Palette. Ctrl+K: abas, histórico, ações",
+    "description": "Extension name, <=75 chars"
+  },
+  "extDesc": {
+    "message": "Pressione Ctrl+K em qualquer página para alternar abas, buscar histórico e favoritos e executar ações rápidas. Privado.",
+    "description": "Extension description, <=132 chars"
+  },
+  "popupPlaceholder": {
+    "message": "Digite uma aba, página ou comando..."
+  },
+  "resultsLabel": {
+    "message": "Resultados"
+  },
+  "loading": {
+    "message": "Carregando suas abas e comandos..."
+  },
+  "emptyState": {
+    "message": "Nenhum resultado. Tente menos letras."
+  },
+  "loadError": {
+    "message": "Não foi possível carregar. Pressione Esc e tente de novo."
+  },
+  "resultWord": {
+    "message": "resultado"
+  },
+  "resultsWord": {
+    "message": "resultados"
+  },
+  "hintOpen": {
+    "message": "Enter para abrir"
+  },
+  "hintNewTab": {
+    "message": "Cmd/Ctrl+Enter para nova aba"
+  },
+  "footOpen": {
+    "message": "Abrir"
+  },
+  "footNewTab": {
+    "message": "Nova aba"
+  },
+  "footClose": {
+    "message": "Fechar"
+  },
+  "sectionTabs": {
+    "message": "ABAS ABERTAS"
+  },
+  "sectionHistory": {
+    "message": "HISTÓRICO"
+  },
+  "sectionBookmarks": {
+    "message": "FAVORITOS"
+  },
+  "sectionCommands": {
+    "message": "COMANDOS"
+  },
+  "sectionCustom": {
+    "message": "SEUS COMANDOS"
+  },
+  "untitled": {
+    "message": "Sem título"
+  },
+  "subBrowserAction": {
+    "message": "Ação do navegador"
+  },
+  "subSearchCommand": {
+    "message": "Comando de busca"
+  },
+  "subCustomAction": {
+    "message": "Comando personalizado"
+  },
+  "enableHistory": {
+    "message": "Ativar busca no histórico"
+  },
+  "enableBookmarks": {
+    "message": "Ativar busca nos favoritos"
+  },
+  "enableSubtitle": {
+    "message": "Lido localmente, nunca enviado"
+  },
+  "enablePill": {
+    "message": "Ativar"
+  },
+  "cmdNewTab": {
+    "message": "Nova aba"
+  },
+  "cmdCloseTab": {
+    "message": "Fechar aba"
+  },
+  "cmdReopenTab": {
+    "message": "Reabrir aba fechada"
+  },
+  "cmdDuplicateTab": {
+    "message": "Duplicar aba"
+  },
+  "cmdPinTab": {
+    "message": "Fixar / desafixar aba"
+  },
+  "cmdMuteTab": {
+    "message": "Silenciar / reativar aba"
+  },
+  "cmdNewWindow": {
+    "message": "Nova janela"
+  },
+  "cmdIncognito": {
+    "message": "Nova janela anônima"
+  },
+  "cmdCopyUrl": {
+    "message": "Copiar URL da página"
+  },
+  "cmdCopyTitle": {
+    "message": "Copiar título da página"
+  },
+  "cmdScrollTop": {
+    "message": "Ir para o topo"
+  },
+  "cmdScrollBottom": {
+    "message": "Ir para o fim"
+  },
+  "paPrint": {
+    "message": "Imprimir página"
+  },
+  "appName": {
+    "message": "Command Palette"
+  },
+  "appTagline": {
+    "message": "Navegação pelo teclado para o seu navegador."
+  },
+  "proBadge": {
+    "message": "Pro"
+  },
+  "upgradeCta": {
+    "message": "Fazer upgrade para o Pro"
+  },
+  "onboardTitle": {
+    "message": "Pressione Ctrl+K em qualquer página"
+  },
+  "onboardBody": {
+    "message": "Uma barra de comandos rápida e privada: alterne abas, busque histórico e favoritos e execute ações rápidas, tudo pelo teclado."
+  },
+  "onboardSourcesTitle": {
+    "message": "Ative fontes de busca opcionais"
+  },
+  "onboardShortcut": {
+    "message": "Ctrl+K não funciona no seu navegador?"
+  },
+  "shortcutsLink": {
+    "message": "Definir o atalho"
+  },
+  "onboardStart": {
+    "message": "Começar a usar o Command Palette"
+  },
+  "onboardSkip": {
+    "message": "Pular por enquanto"
+  },
+  "sourcesTitle": {
+    "message": "Fontes de busca"
+  },
+  "sourcesDesc": {
+    "message": "Escolha o que a paleta pode buscar. Tudo é lido localmente no seu dispositivo e nunca sai dele."
+  },
+  "sourceHistory": {
+    "message": "Histórico"
+  },
+  "sourceHistoryDesc": {
+    "message": "Busque páginas que você visitou."
+  },
+  "sourceBookmarks": {
+    "message": "Favoritos"
+  },
+  "sourceBookmarksDesc": {
+    "message": "Busque seus favoritos salvos."
+  },
+  "sourceSessions": {
+    "message": "Fechadas recentemente"
+  },
+  "sourceSessionsDesc": {
+    "message": "Reabra abas fechadas recentemente."
+  },
+  "appearanceTitle": {
+    "message": "Aparência e comportamento"
+  },
+  "themeLabel": {
+    "message": "Tema"
+  },
+  "themeSystem": {
+    "message": "Sistema"
+  },
+  "themeLight": {
+    "message": "Claro"
+  },
+  "themeDark": {
+    "message": "Escuro"
+  },
+  "openNewTabLabel": {
+    "message": "Abrir resultados em uma nova aba"
+  },
+  "openNewTabDesc": {
+    "message": "Enter abre em uma nova aba; Ctrl+Enter abre na aba atual."
+  },
+  "commandsTitle": {
+    "message": "Comandos personalizados"
+  },
+  "commandsDesc": {
+    "message": "Suas próprias ações rápidas: abra uma URL, busque em qualquer site ou execute uma ação de página."
+  },
+  "newCommand": {
+    "message": "Novo comando"
+  },
+  "commandsEmpty": {
+    "message": "Nenhum comando personalizado ainda. Crie o primeiro."
+  },
+  "capProAll": {
+    "message": "Comandos personalizados ilimitados com o Pro."
+  },
+  "freeCommandsUsed": {
+    "message": "comandos gratuitos usados"
+  },
+  "perSiteScoped": {
+    "message": "Por site"
+  },
+  "editorLabelLabel": {
+    "message": "Rótulo"
+  },
+  "editorLabelPh": {
+    "message": "ex.: Buscar na MDN"
+  },
+  "editorKindLabel": {
+    "message": "Tipo"
+  },
+  "optKindOpenUrl": {
+    "message": "Abrir uma URL"
+  },
+  "kindSearchShort": {
+    "message": "Buscar em um site"
+  },
+  "optKindSearch": {
+    "message": "Buscar em um site (use %s para sua consulta)"
+  },
+  "optKindPageAction": {
+    "message": "Ação de página"
+  },
+  "editorTargetUrlLabel": {
+    "message": "URL para abrir"
+  },
+  "editorTargetUrlPh": {
+    "message": "https://example.com"
+  },
+  "editorTargetSearchLabel": {
+    "message": "URL de busca (use %s para sua consulta)"
+  },
+  "editorTargetSearchPh": {
+    "message": "https://developer.mozilla.org/search?q=%s"
+  },
+  "editorTargetActionLabel": {
+    "message": "Ação de página"
+  },
+  "editorPerSiteLabel": {
+    "message": "Somente nestes sites"
+  },
+  "editorPerSitePh": {
+    "message": "*://*.github.com/*"
+  },
+  "editorPerSiteDesc": {
+    "message": "Um padrão de correspondência por linha."
+  },
+  "editorSave": {
+    "message": "Salvar comando"
+  },
+  "editorCancel": {
+    "message": "Cancelar"
+  },
+  "editorInvalid": {
+    "message": "Insira um rótulo e um destino https:// válido."
+  },
+  "editEdit": {
+    "message": "Editar"
+  },
+  "editDelete": {
+    "message": "Excluir"
+  },
+  "deleteConfirm": {
+    "message": "Excluir este comando?"
+  },
+  "savedToast": {
+    "message": "Comando salvo"
+  },
+  "deletedToast": {
+    "message": "Comando excluído"
+  },
+  "optPerSite": {
+    "message": "Somente nestes sites (Pro)"
+  },
+  "optSync": {
+    "message": "Sincronizar comandos entre dispositivos (Pro)"
+  },
+  "syncLabel": {
+    "message": "Sincronizar comandos entre dispositivos"
+  },
+  "syncDesc": {
+    "message": "Mantenha seus comandos sincronizados em todos os lugares onde você entrou no Chrome."
+  },
+  "aboutTitle": {
+    "message": "Sobre"
+  },
+  "versionLabel": {
+    "message": "Versão"
+  },
+  "aboutPrivacy": {
+    "message": "Sem contas. Sem rastreamento. Seus dados nunca saem do seu dispositivo."
+  },
+  "proThanks": {
+    "message": "Você está no Pro. Obrigado por apoiar a Zovo."
+  },
+  "privacyLink": {
+    "message": "Política de privacidade"
+  },
+  "supportLink": {
+    "message": "Falar com o suporte"
+  },
+  "paywallTitle": {
+    "message": "Desbloqueie o Command Palette Pro"
+  },
+  "paywallReframe": {
+    "message": "$$99 uma vez vs $$9/mo para sempre"
+  },
+  "paywallGuarantee": {
+    "message": "Garantia de reembolso de 30 dias, cancele quando quiser, sem coleta de dados"
+  },
+  "shortcutHint": {
+    "message": "Defina ou altere o atalho em chrome://extensions/shortcuts"
+  }
+}

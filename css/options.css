@@ -1,0 +1,501 @@
+/* src/styles/options.css — options page (settings + command manager + onboarding).
+ * Builds on zovo-base tokens/components; dark mode + focus rings come from
+ * zovo-base. Copied to dist/css/ at build time. No emojis (DESIGN-SYSTEM.md). */
+
+body.zovo {
+  background: var(--zovo-surface);
+}
+
+.cp-opt {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: var(--zovo-space-7) var(--zovo-space-5) var(--zovo-space-8);
+  display: flex;
+  flex-direction: column;
+  gap: var(--zovo-space-5);
+}
+
+/* Two-column body: settings/onboarding + the conversion rail (§5). */
+.cp-opt__grid {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--zovo-space-6);
+}
+.cp-opt__main {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--zovo-space-5);
+}
+#cp-settings {
+  display: flex;
+  flex-direction: column;
+  gap: var(--zovo-space-5);
+}
+@media (max-width: 900px) {
+  .cp-opt__grid { flex-direction: column; }
+  .zovo-sidebar { width: 100%; }
+}
+
+/* ---- Header --------------------------------------------------------------- */
+.cp-opt__head {
+  display: flex;
+  align-items: center;
+  gap: var(--zovo-space-4);
+}
+.cp-opt__logo {
+  width: 40px;
+  height: 40px;
+  border-radius: var(--zovo-radius-btn);
+  flex: none;
+}
+.cp-opt__headmain {
+  flex: 1;
+  min-width: 0;
+}
+.cp-opt__title {
+  margin: 0;
+  font-size: var(--zovo-fs-title);
+  font-weight: var(--zovo-fw-heading);
+  letter-spacing: -0.02em;
+}
+.cp-opt__tag {
+  margin: 2px 0 0;
+  font-size: var(--zovo-fs-body);
+}
+
+/* ---- Onboarding hero ------------------------------------------------------ */
+.cp-onboard {
+  padding: var(--zovo-space-7) var(--zovo-space-6);
+}
+.cp-onboard__hero {
+  text-align: center;
+  margin-bottom: var(--zovo-space-6);
+}
+.cp-onboard__keycap {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--zovo-space-2);
+  margin-bottom: var(--zovo-space-4);
+  color: var(--zovo-text-secondary);
+  font-size: var(--zovo-fs-subheading);
+}
+.cp-onboard__keycap kbd {
+  font-family: var(--zovo-font-mono);
+  font-size: var(--zovo-fs-heading);
+  font-weight: 700;
+  color: var(--zovo-primary);
+  background: var(--zovo-bg);
+  border: 1px solid var(--zovo-border);
+  border-bottom-width: 3px;
+  border-radius: var(--zovo-radius-btn);
+  padding: 8px 14px;
+  box-shadow: var(--zovo-shadow-sm);
+}
+.cp-onboard__title {
+  margin: 0;
+  font-size: var(--zovo-fs-title);
+  font-weight: var(--zovo-fw-heading);
+  letter-spacing: -0.02em;
+}
+.cp-onboard__body {
+  margin: var(--zovo-space-3) auto 0;
+  max-width: 46ch;
+}
+.cp-onboard__shortcut {
+  margin: var(--zovo-space-4) 0 0;
+  font-size: var(--zovo-fs-caption);
+}
+.cp-onboard__actions {
+  display: flex;
+  flex-direction: column;
+  gap: var(--zovo-space-2);
+  margin-top: var(--zovo-space-5);
+  align-items: center;
+}
+.cp-onboard__actions .zovo-btn--block {
+  width: 100%;
+}
+
+/* ---- Section cards -------------------------------------------------------- */
+.cp-sec {
+  display: flex;
+  flex-direction: column;
+  gap: var(--zovo-space-4);
+}
+.cp-sec__title {
+  margin: 0;
+  font-size: var(--zovo-fs-subheading);
+  font-weight: var(--zovo-fw-heading);
+}
+.cp-sec__desc {
+  margin: -8px 0 0;
+  font-size: var(--zovo-fs-caption);
+}
+.cp-sec__row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--zovo-space-4);
+}
+.cp-sec__row .zovo-btn {
+  flex: none;
+}
+
+/* ---- Toggle rows + switch ------------------------------------------------- */
+.cp-src {
+  display: flex;
+  flex-direction: column;
+  gap: var(--zovo-space-2);
+}
+.cp-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--zovo-space-4);
+  padding: var(--zovo-space-3) 0;
+}
+.cp-toggle + .cp-toggle {
+  border-top: 1px solid var(--zovo-border);
+}
+.cp-toggle__text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+.cp-toggle__label {
+  font-weight: var(--zovo-fw-medium);
+  display: inline-flex;
+  align-items: center;
+  gap: var(--zovo-space-2);
+}
+.cp-toggle__desc {
+  font-size: var(--zovo-fs-caption);
+}
+
+.cp-switch {
+  position: relative;
+  flex: none;
+  width: 44px;
+  height: 26px;
+  padding: 0;
+  border: 1px solid var(--zovo-border);
+  border-radius: var(--zovo-radius-pill);
+  background: var(--zovo-surface-2);
+  cursor: pointer;
+  transition: background var(--zovo-transition), border-color var(--zovo-transition);
+}
+.cp-switch__dot {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: var(--zovo-shadow-sm);
+  transition: transform var(--zovo-transition);
+}
+.cp-switch[aria-checked='true'] {
+  background: var(--zovo-primary);
+  border-color: var(--zovo-primary);
+}
+.cp-switch[aria-checked='true'] .cp-switch__dot {
+  transform: translateX(18px);
+}
+.cp-switch:focus-visible {
+  outline: 2px solid var(--zovo-primary);
+  outline-offset: 2px;
+}
+
+/* ---- Fields -------------------------------------------------------------- */
+.cp-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.cp-field__hint {
+  font-size: var(--zovo-fs-caption);
+}
+.cp-theme,
+.cp-kind {
+  max-width: 420px;
+}
+
+/* ---- Command list -------------------------------------------------------- */
+.cp-cap {
+  margin: 0;
+  font-size: var(--zovo-fs-caption);
+}
+.cp-cmd-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--zovo-space-2);
+}
+.cp-cmd-empty {
+  margin: 0;
+  padding: var(--zovo-space-4);
+  text-align: center;
+  background: var(--zovo-surface);
+  border: 1px dashed var(--zovo-border);
+  border-radius: var(--zovo-radius-card);
+}
+.cp-cmd {
+  display: flex;
+  align-items: center;
+  gap: var(--zovo-space-3);
+  padding: var(--zovo-space-3);
+  border: 1px solid var(--zovo-border);
+  border-radius: var(--zovo-radius-card);
+  background: var(--zovo-bg);
+}
+.cp-cmd__tile {
+  flex: none;
+  width: 32px;
+  height: 32px;
+  display: grid;
+  place-items: center;
+  border-radius: var(--zovo-radius-btn);
+  font-family: var(--zovo-font-mono);
+  font-weight: 700;
+  color: var(--zovo-primary);
+  background: var(--zovo-primary-50);
+}
+.cp-cmd__main {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.cp-cmd__label {
+  font-weight: var(--zovo-fw-medium);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.cp-cmd__sub {
+  font-size: var(--zovo-fs-caption);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.cp-cmd__scope {
+  align-self: flex-start;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--zovo-accent);
+  border: 1px solid var(--zovo-accent);
+  border-radius: var(--zovo-radius-pill);
+  padding: 1px 7px;
+}
+.cp-cmd__actions {
+  display: flex;
+  gap: 4px;
+  flex: none;
+}
+.cp-cmd__btn {
+  min-height: 32px;
+  padding: 6px 12px;
+  font-size: var(--zovo-fs-caption);
+}
+.cp-cmd__btn--danger {
+  color: var(--zovo-error);
+}
+.cp-cmd__btn--danger:hover {
+  background: color-mix(in srgb, var(--zovo-error) 10%, transparent);
+}
+
+/* ---- Editor -------------------------------------------------------------- */
+.cp-editor {
+  display: flex;
+  flex-direction: column;
+  gap: var(--zovo-space-4);
+  padding: var(--zovo-space-5);
+  border: 1px solid var(--zovo-border);
+  border-radius: var(--zovo-radius-card);
+  background: var(--zovo-surface);
+}
+.cp-persite label {
+  display: flex;
+  align-items: center;
+  gap: var(--zovo-space-2);
+}
+.cp-locked {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+.cp-editor__err {
+  margin: 0;
+  color: var(--zovo-error);
+  font-size: var(--zovo-fs-caption);
+}
+.cp-editor__actions {
+  display: flex;
+  gap: var(--zovo-space-2);
+}
+
+/* ---- Sync + about + misc ------------------------------------------------- */
+.cp-sync {
+  border-top: 1px solid var(--zovo-border);
+  padding-top: var(--zovo-space-4);
+}
+.cp-about__line {
+  margin: 0;
+  display: flex;
+  gap: var(--zovo-space-2);
+}
+.cp-about__privacy,
+.cp-about__pro {
+  margin: 0;
+  font-size: var(--zovo-fs-caption);
+}
+.cp-about__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--zovo-space-4);
+}
+.cp-link {
+  color: var(--zovo-primary);
+  text-decoration: none;
+  font-weight: var(--zovo-fw-medium);
+  cursor: pointer;
+}
+.cp-link:hover {
+  text-decoration: underline;
+}
+
+/* ---- Toast --------------------------------------------------------------- */
+.cp-toast {
+  position: fixed;
+  left: 50%;
+  bottom: 24px;
+  transform: translateX(-50%);
+  padding: 10px 18px;
+  border-radius: var(--zovo-radius-pill);
+  background: var(--zovo-text);
+  color: var(--zovo-bg);
+  font-size: var(--zovo-fs-caption);
+  font-weight: var(--zovo-fw-medium);
+  box-shadow: var(--zovo-shadow-lg);
+  z-index: 50;
+}
+
+@media (max-width: 520px) {
+  .cp-cmd {
+    flex-wrap: wrap;
+  }
+  .cp-cmd__actions {
+    width: 100%;
+    justify-content: flex-end;
+  }
+}
+
+/* ---- Zovo conversion sidebar (MONETIZE-STANDARD §5) ---------------------- */
+/* Token-driven; the Pro card is the ONE purple thing, its CTA the ONE gold
+ * action (DESIGN-SYSTEM §"one accent"). Bound to --zovo-primary (the #6C5CE7
+ * brand purple) — NOT --zovo-accent, which is teal in this base. */
+.zovo-sidebar {
+  width: 288px;
+  flex: none;
+  position: sticky;
+  top: var(--zovo-space-6);
+  display: flex;
+  flex-direction: column;
+  gap: var(--zovo-space-4);
+}
+.zs-card {
+  background: var(--zovo-bg);
+  border: 1px solid var(--zovo-border);
+  border-radius: var(--zovo-radius-card);
+  padding: var(--zovo-space-5);
+}
+.zs-card--pro {
+  background: linear-gradient(160deg, var(--zovo-primary) 0%, var(--zovo-primary-dark) 100%);
+  border: none;
+  color: #fff;
+  box-shadow: var(--zovo-shadow);
+}
+.zs-eyebrow {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 700;
+  opacity: 0.82;
+  margin-bottom: var(--zovo-space-2);
+}
+.zs-h {
+  font-size: var(--zovo-fs-subheading);
+  font-weight: var(--zovo-fw-heading);
+  letter-spacing: -0.01em;
+  margin: 0 0 var(--zovo-space-3);
+  line-height: 1.25;
+}
+.zs-stack {
+  list-style: none;
+  margin: 0 0 var(--zovo-space-4);
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--zovo-space-2);
+  font-size: var(--zovo-fs-caption);
+  line-height: 1.4;
+}
+.zs-stack li {
+  padding-left: 22px;
+  position: relative;
+}
+.zs-stack li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 4px;
+  width: 12px;
+  height: 7px;
+  border-left: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  transform: rotate(-45deg);
+  opacity: 0.9;
+}
+.zs-card--pro .zovo-btn--pro { width: 100%; }
+.zs-sub {
+  font-size: 11.5px;
+  margin: var(--zovo-space-3) 0 0;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.82);
+}
+.zs-x {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--zovo-space-2);
+  padding: var(--zovo-space-2) 2px;
+  text-decoration: none;
+  color: var(--zovo-text);
+  font-size: var(--zovo-fs-caption);
+  font-weight: var(--zovo-fw-medium);
+}
+.zs-x:hover .zs-x__nm { color: var(--zovo-primary); }
+.zs-x__go { color: var(--zovo-text-secondary); }
+.zs-foot {
+  display: flex;
+  gap: var(--zovo-space-4);
+  justify-content: center;
+  font-size: 11.5px;
+}
+.zs-foot a {
+  color: var(--zovo-text-secondary);
+  text-decoration: none;
+}
+.zs-foot a:hover { color: var(--zovo-primary); }
+.zs-x:focus-visible,
+.zs-foot a:focus-visible,
+.zs-card--pro .zovo-btn--pro:focus-visible {
+  outline: 2px solid var(--zovo-primary);
+  outline-offset: 2px;
+  border-radius: var(--zovo-radius-btn);
+}
